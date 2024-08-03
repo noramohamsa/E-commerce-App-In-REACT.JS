@@ -7,12 +7,14 @@ import ProductDetails from "./componants/ProductDetails";
 function App() {
   return (
     <div className="App">
+    <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="products/:productId" element={<ProductDetails />} />
       </Routes>
+      </Router>
 
 
     </div>
