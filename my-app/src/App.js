@@ -1,5 +1,5 @@
 import Navbar from "./componants/Navbar";
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { Router, Routes, Route, Navigate } from 'react-router-dom';
 import Home from "./Routing/Home";
 import About from "./Routing/About";
 import ProductDetails from "./componants/ProductDetails";
